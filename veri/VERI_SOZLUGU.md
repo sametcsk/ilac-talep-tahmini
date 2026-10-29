@@ -26,3 +26,6 @@ Kaynak: İlaç Endüstrisi İşverenler Sendikası (İEİS), Pazar Analiz Raporl
 
 ## analiz_tablosu.csv
 `01_analiz_tablosu.py` çıktısı: pazar serisi + kur/TÜFE + `is_gunu`, `bayram_is_gunu_kaybi`, log serileri ve aylık log değişimler. TÜFE 2026-02'den itibaren boştur.
+
+## avro_degeri_guncellemeleri.csv
+İlaç fiyatlandırmasında kullanılan avro değerinin (TL) güncellemeleri: `yayim_tarihi` (Resmî Gazete), `yururluk_tarihi`, `avro_degeri_tl`, `onceki_deger_tl`, `artis_pct`, `kaynak_notu`. Kaynak: Cumhurbaşkanı kararları (Resmî Gazete sayıları not sütununda). Şubat 2022 yürürlük tarihi haber kaynaklarına dayanır (resmî metin doğrulanmadı). 2026'da karar iki aşamalıdır (13 Mart ve 1 Nisan).

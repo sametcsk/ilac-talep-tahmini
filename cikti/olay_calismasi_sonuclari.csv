@@ -1,0 +1,33 @@
+model,terim,katsayi,se,p
+fiyat (ay etkisiz),l0,0.3171,0.1358,0.0195
+fiyat (ay etkisiz),l1,0.6107,0.2311,0.0082
+fiyat (ay etkisiz),l2,-0.0853,0.1363,0.5313
+fiyat (ay etkisiz),l3,-0.0856,0.1081,0.4287
+fiyat (ay etkisiz),KUMULATIF,0.7569,0.2833,0.0075
+fiyat (ay etkili),l0,0.1003,0.1627,0.5375
+fiyat (ay etkili),l1,0.7259,0.2138,0.0007
+fiyat (ay etkili),l2,-0.0125,0.089,0.8885
+fiyat (ay etkili),l3,-0.1172,0.0954,0.2194
+fiyat (ay etkili),KUMULATIF,0.6966,0.2453,0.0045
+fiyat (permutasyon),KUMULATIF,0.7569,0.2458,0.001
+fiyat (LOO),-2022-02,0.7868,,
+fiyat (LOO),-2022-07,0.8623,,
+fiyat (LOO),-2022-12,0.5193,,
+fiyat (LOO),-2023-07,0.6819,,
+fiyat (LOO),-2023-12,0.7283,,
+fiyat (LOO),-2024-10,0.6001,,
+fiyat (LOO),-2025-12,0.6798,,
+fiyat (LOO),-2026-03,0.7133,,
+hacim,onceki_ay,0.1589,0.1126,0.158
+hacim,ay0,0.1229,0.1686,0.4661
+hacim,sonraki_ay1,-0.2384,0.1922,0.215
+hacim,sonraki_ay2,-0.4006,0.0624,0.0
+hacim,SONRAKI_1+2,-0.639,0.1822,0.0005
+hacim (LOO),-2022-02: onceki_ay / sonraki_1+2,-0.4991,,
+hacim (LOO),-2022-07: onceki_ay / sonraki_1+2,-0.6963,,
+hacim (LOO),-2022-12: onceki_ay / sonraki_1+2,-0.7508,,
+hacim (LOO),-2023-07: onceki_ay / sonraki_1+2,-0.5523,,
+hacim (LOO),-2023-12: onceki_ay / sonraki_1+2,-0.5772,,
+hacim (LOO),-2024-10: onceki_ay / sonraki_1+2,-0.8073,,
+hacim (LOO),-2025-12: onceki_ay / sonraki_1+2,-0.6633,,
+hacim (LOO),-2026-03: onceki_ay / sonraki_1+2,-0.6429,,

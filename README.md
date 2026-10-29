@@ -18,6 +18,7 @@ Ocak–Eylül karşılaştırmasında 2022'den 2026'ya değer yaklaşık **6,1 k
 | Toplam ilaç pazarı (değer, hacim, imal/ithal) | İEİS Pazar Analiz Raporları (kaynak veri: IQVIA, SGK) | 2022-01 … 2026-09 (**57 ay**) | `veri/pazar_toplam_aylik.csv` |
 | Tedavi grubu serileri | Aynı raporlar | 57 ay | `veri/tedavi_gruplari_dengeli.csv`, `veri/tedavi_gruplari_uzun.csv` |
 | USD/TRY, EUR/TRY, TÜFE | TCMB EVDS 3 | aylık | `macro_monthly.csv` (`fetch_macro.py`, API anahtarı gerekir) |
+| İlaç avro değeri güncellemeleri | Resmî Gazete kararları (9 güncelleme) | 2022-02 … 2026-04 | `veri/avro_degeri_guncellemeleri.csv` |
 | Resmi tatiller | `holidays` paketi (TR) | | `01_analiz_tablosu.py` içinde |
 
 Alan tanımları: `veri/VERI_SOZLUGU.md`. **Kaynak:** İlaç Endüstrisi İşverenler Sendikası (İEİS), Pazar Analiz Raporları, Ocak 2023 – Eylül 2026 (45 rapor; her rapor önceki yılın aynı ayını da içerdiği için seri 2022'den başlar). Raporların hakkı İEİS'e aittir; repoda PDF yoktur, yalnızca raporlardan çıkarılan sayılar vardır.
@@ -62,7 +63,23 @@ Hacim tahmini, 1 adım ileri; model her ay yalnızca o aya kadarki veriyle yenid
 - **Mevsimsellik var:** Eylül–Ekim hacim ortalaması (≈ 245 milyon kutu) Nisan–Ağustos'un (≈ 205) belirgin üstünde. Eğitim penceresi 36 ayı geçince mevsimi öğrenen modeller (LightGBM, `lag12`'li Ridge) öne geçiyor; 24–35 aylık eğitimde ise basit doğrusal modeller daha iyiydi.
 - **Küçük farklar anlamlı değil:** ana pencerede LightGBM ile SARIMAX arasındaki fark Diebold–Mariano testinde anlamsız (p = 0,25), LightGBM–Ridge(`lag12`) için p = 0,68. LightGBM naif tahminden anlamlı biçimde iyi (p < 0,01), mevsimsel naiften farkı anlamsız (p = 0,14). Yani sonuç "ML ekonometriyi yendi" değil; **takvim ve mevsim bilgisi olan her model işe yarıyor, 21 aylık testle aralarında sıralama yapılamıyor.**
 - **Açıklanamayan kısım:** Eylül 2025 (277 milyon kutu) ve Temmuz 2026 (184) en büyük hatalar, bunlar takvimle ve ay etkisiyle açıklanmıyor. Eylül 2025 dışarıda bırakılırsa RMSE'ler 14,5 (LightGBM) ile 16,9 (OLS) arasına iniyor. Grafik: `cikti/hacim_tahmin.png`.
-- **Kur geçişkenliği henüz kanıtlanmadı:** ortalama kutu fiyatı üzerine aylık gecikmeli regresyon (36 aylık ilk örneklemde) kararsız ve ekonomik olarak anlamsız katsayılar verdi. Fiyatlar aylık sürekli değil, düzenleyici avro değeri güncellemeleriyle basamak basamak değişiyor; bu yüzden olay çalışması (event study) gerekiyor. Sonuç olarak sunulmuyor.
+## Kur geçişkenliği: avro değeri olay çalışması
+İlaç fiyatları aylık kurla değil, **avro değeri** güncellemeleriyle basamak basamak değişiyor (2022'den beri 9 güncelleme: %37, %25, %37, %30,5, %25, %23,5, %16,9 ve 2026'da iki aşamalı %6,1 + %8,3). İlk denememiz olan aylık EUR/TRY regresyonu bu yüzden anlamsızdı. Burada güncellemenin yürürlüğe girdiği ay olay zamanı alındı (`03_olay_calismasi.py`, tarihler ve Resmî Gazete numaraları `veri/avro_degeri_guncellemeleri.csv`).
+
+| Sonuç | Tahmin | Not |
+|---|---|---|
+| **Fiyat:** güncellemenin ortalama kutu fiyatına kümülatif geçişi (0–3 ay) | **≈ 0,70–0,76** (HAC p ≈ 0,005–0,008; permütasyon p ≈ 0,001) | Etki ağırlıkla güncellemeden *sonraki ayda* (b₁ ≈ 0,6–0,7); bir olay dışarıda bırakıldığında 0,52–0,86 |
+| **Hacim:** güncelleme öncesi ay (stoklama) | +0,16 (p = 0,16) | Beklenen yönde ama anlamsız |
+| **Hacim:** güncellemeden sonraki 1–2 ay | −0,64 (HAC p < 0,001) | Her olay çıkarıldığında −0,50…−0,81, ama **8 olayla kırılgan**, nedensel okuma yapmayın |
+
+Okuma: %25'lik bir avro değeri artışı (log 0,22) ortalama kutu fiyatını yaklaşık %15–17 yükseltiyor. Geçişin 1'in altında kalması beklenen bir şey: fiyat koruma barem değerinin altındaki ucuz ilaçlar güncellemeden pay almıyor ve ortalama fiyat ürün karmasını da içeriyor. Grafik: `cikti/olay_calismasi.png`.
+
+Sınırlar:
+- 8 bağımsız olay kümesi (2026'daki iki aşama tek küme sayıldı). Hacim sonuçları (özellikle güncelleme sonrası düşüş) seçilen takvim/mevsim kontrollerine duyarlı; bu bir **fiyat esnekliği tahmini değildir**, çünkü fiyat ve hacim aynı olaya aynı anda tepki veriyor.
+- Yürürlük tarihleri çoğunlukla "yayımdan sonraki gün". Şubat 2022'de haberlere dayanıyor (yaklaşık 19.02.2022), resmî metin doğrulanmadı. Aralık 2023'te resmî metin 25.12.2023 diyor. Aylık veride bu belirsizlik ay sınırı yakınındaki olaylarda (Temmuz 2023, Ekim 2024, Aralık 2023/2025) etkinin hangi aya düştüğünü kaydırabilir.
+- Aylık veri sınırlıdır: şirket içi fiyat listesi tarihleri ve ürün düzeyi veri olsaydı daha keskin tahmin yapılabilirdi.
+- Düzenleme 2026'da değişti (avro değeri önceki yıl ortalamasının %60'ı yerine %65'i; yıl başı ilanı). Bu çalışma 2026 sonrası için kural tahmini yapmıyor.
+
 
 ## Çalıştırma
 ```
@@ -71,14 +88,16 @@ $env:EVDS_API_KEY="..."        # PowerShell; anahtarı koda/repoya yazmayın
 python fetch_macro.py           # macro_monthly.csv üretir
 python 01_analiz_tablosu.py     # veri/analiz_tablosu.csv
 python 02_baseline.py           # cikti/baseline_sonuclari.csv + cikti/hacim_tahmin.png
+python 03_olay_calismasi.py     # cikti/olay_calismasi_sonuclari.csv + cikti/olay_calismasi.png
 ```
 
 ## Yol haritası
 - [x] Veri: 57 aylık pazar serisi, tedavi grubu paneli, makro ve takvim değişkenleri
 - [x] Durağanlık testleri, takvim etkisi, baseline modeller, iki pencerede rolling-origin değerlendirme
-- [ ] **Kur geçişkenliği:** ilaç avro değeri güncelleme tarihleriyle olay çalışması (fiyat basamakları)
+- [x] **Kur geçişkenliği:** avro değeri güncelleme tarihleriyle olay çalışması (fiyat geçişi ≈ 0,7; hacim sonuçları kırılgan)
 - [ ] Tedavi grubu paneli üzerinde hiyerarşik/panel tahmin (5 dengeli seri)
 - [ ] TÜFE'nin yeni baz yıllı (2025=100) EVDS serisini bağla, reel değer analizini 2026'ya uzat
+- [ ] Olay çalışmasını genişlet: ürün/ATC düzeyi veya ihracat-ithalat ayrımı (imal/ithal) ile geçişi karşılaştır
 - [ ] SHAP ile açıklama (en iyi ML modeli için; 57 gözlemde dikkatli yorum)
 - [ ] 2026'nın kalan aylarını rapor çıktıkça ekle
 - [ ] (Opsiyonel) Faz 2: gerçek toplama kalibre edilmiş sentetik ürün düzeyi simülasyon (açıkça etiketlenir)
