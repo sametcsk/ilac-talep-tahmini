@@ -1,7 +1,7 @@
 """Pazar verisi (IEIS) + makro (TCMB EVDS) + takvim degiskenlerini tek analiz tablosunda birlestirir.
 
 Girdi : veri/pazar_toplam_aylik.csv, macro_monthly.csv (fetch_macro.py ile uretilir)
-Cikti : veri/analiz_tablosu.csv  (36 ay: 2022-01 .. 2024-12)
+Cikti : veri/analiz_tablosu.csv  (57 ay: 2022-01 .. 2026-09)
 """
 from pathlib import Path
 import numpy as np
@@ -29,8 +29,12 @@ def main() -> None:
     macro = macro[["donem", "usd_try", "eur_try", "tufe"]]
 
     df = pazar.merge(macro, on="donem", how="left")
-    if df[["usd_try", "eur_try", "tufe"]].isna().any().any():
-        raise SystemExit("Makro veride eksik ay var; fetch_macro.py'yi tekrar calistirin (PERIOD='10y').")
+    if df[["usd_try", "eur_try"]].isna().any().any():
+        raise SystemExit("Kur verisinde eksik ay var; fetch_macro.py'yi tekrar calistirin (PERIOD='10y').")
+    # TUFE (2003=100) serisi Ocak 2026'da bitti (baz yili 2025=100'e gecti): sonraki aylar NaN kalir
+    if df["tufe"].isna().any():
+        print(f"Uyari: TUFE {int(df['tufe'].isna().sum())} ayda eksik ({df.loc[df['tufe'].isna(), 'donem'].iloc[0]} sonrasi); "
+              "reel deger ve dlog_tufe bu aylarda bos.")
 
     tr_tatil = holidays.TR(years=sorted({p.year for p in df["donem"]}))
     sayilar = [is_gunu_say(p, tr_tatil) for p in df["donem"]]

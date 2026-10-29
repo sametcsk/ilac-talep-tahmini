@@ -1,7 +1,15 @@
-model,rmse_milyon_kutu,mape_pct
-SARIMAX (AR1 + takvim),16.8,5.7
-OLS (takvim),17.0,5.9
-Ridge (takvim + lag1),17.3,5.6
-LightGBM (takvim + lag1 + ay),22.0,8.6
-Naif (gecen ay),28.3,11.0
-Mevsimsel naif (gecen yil ayni ay),30.2,11.8
+test_donemi,model,rmse_milyon_kutu,mape_pct
+2024 (12 ay),SARIMAX (AR1 + takvim),17.3,5.9
+2024 (12 ay),OLS (takvim),17.4,6.0
+2024 (12 ay),Ridge (takvim + lag1),17.8,5.8
+2024 (12 ay),Ridge (takvim + lag1 + lag12),19.7,7.3
+2024 (12 ay),LightGBM (takvim + lag1 + ay),20.8,8.2
+2024 (12 ay),Naif (gecen ay),28.3,11.0
+2024 (12 ay),Mevsimsel naif (gecen yil ayni ay),30.3,11.9
+2025-01..2026-09 (21 ay),LightGBM (takvim + lag1 + ay),16.6,5.6
+2025-01..2026-09 (21 ay),Ridge (takvim + lag1 + lag12),17.6,5.7
+2025-01..2026-09 (21 ay),SARIMAX (AR1 + takvim),19.8,6.2
+2025-01..2026-09 (21 ay),OLS (takvim),20.0,6.4
+2025-01..2026-09 (21 ay),Ridge (takvim + lag1),20.3,6.6
+2025-01..2026-09 (21 ay),Mevsimsel naif (gecen yil ayni ay),21.5,7.3
+2025-01..2026-09 (21 ay),Naif (gecen ay),30.8,11.4
