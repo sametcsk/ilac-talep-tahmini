@@ -1,0 +1,361 @@
+donem,grup,olcu,deger,rapor_yili,rapor_ayi,kaynak,uyari
+2022-01,Antibiyotikler,deger_milyon_tl,493,2023,2023-01,metin,
+2022-02,Antibiyotikler,deger_milyon_tl,414,2023,2023-02,metin,
+2022-03,Antibiyotikler,deger_milyon_tl,536,2023,2023-03,metin,
+2022-04,Antibiyotikler,deger_milyon_tl,480,2023,2023-04,metin,
+2022-05,Antibiyotikler,deger_milyon_tl,500,2023,2023-05,goruntu_elle,
+2022-06,Antibiyotikler,deger_milyon_tl,638,2023,2023-06,metin,
+2022-07,Antibiyotikler,deger_milyon_tl,497,2023,2023-07,metin,
+2022-08,Antibiyotikler,deger_milyon_tl,680,2023,2023-08,metin,
+2022-09,Antibiyotikler,deger_milyon_tl,736,2023,2023-09,metin,
+2022-10,Antibiyotikler,deger_milyon_tl,758,2023,2023-10,metin,
+2022-11,Antibiyotikler,deger_milyon_tl,886,2023,2023-11,metin,
+2022-12,Antibiyotikler,deger_milyon_tl,1321,2023,2023-12,metin,
+2023-01,Antibiyotikler,deger_milyon_tl,1530,2024,2024-01,metin,
+2023-02,Antibiyotikler,deger_milyon_tl,1161,2024,2024-02,metin,
+2023-03,Antibiyotikler,deger_milyon_tl,1233,2024,2024-03,metin,
+2023-04,Antibiyotikler,deger_milyon_tl,1152,2024,2024-04,metin,
+2023-05,Antibiyotikler,deger_milyon_tl,1250,2024,2024-05,metin,
+2023-06,Antibiyotikler,deger_milyon_tl,1153,2024,2024-06,metin,
+2023-07,Antibiyotikler,deger_milyon_tl,1018,2024,2024-07,metin,
+2023-08,Antibiyotikler,deger_milyon_tl,1253,2024,2024-08,metin,
+2023-09,Antibiyotikler,deger_milyon_tl,1519,2024,2024-09,metin,
+2023-10,Antibiyotikler,deger_milyon_tl,1580,2024,2024-10,metin,
+2023-11,Antibiyotikler,deger_milyon_tl,1685,2024,2024-11,metin,
+2023-12,Antibiyotikler,deger_milyon_tl,1813,2024,2024-12,metin,
+2024-01,Antibiyotikler,deger_milyon_tl,2686,2024,2024-01,metin,
+2024-02,Antibiyotikler,deger_milyon_tl,2201,2024,2024-02,metin,
+2024-03,Antibiyotikler,deger_milyon_tl,2086,2024,2024-03,metin,
+2024-04,Antibiyotikler,deger_milyon_tl,1840,2024,2024-04,metin,
+2024-05,Antibiyotikler,deger_milyon_tl,1998,2024,2024-05,metin,
+2024-06,Antibiyotikler,deger_milyon_tl,1503,2024,2024-06,metin,
+2024-07,Antibiyotikler,deger_milyon_tl,1803,2024,2024-07,metin,
+2024-08,Antibiyotikler,deger_milyon_tl,1760,2024,2024-08,metin,
+2024-09,Antibiyotikler,deger_milyon_tl,2076,2024,2024-09,metin,
+2024-10,Antibiyotikler,deger_milyon_tl,1960,2024,2024-10,metin,
+2024-11,Antibiyotikler,deger_milyon_tl,2112,2024,2024-11,metin,
+2024-12,Antibiyotikler,deger_milyon_tl,1983,2024,2024-12,metin,
+2022-01,Antidiabetikler,deger_milyon_tl,473,2023,2023-01,metin,
+2022-02,Antidiabetikler,deger_milyon_tl,510,2023,2023-02,metin,
+2022-03,Antidiabetikler,deger_milyon_tl,415,2023,2023-03,metin,
+2022-04,Antidiabetikler,deger_milyon_tl,515,2023,2023-04,metin,
+2022-06,Antidiabetikler,deger_milyon_tl,648,2023,2023-06,metin,
+2022-07,Antidiabetikler,deger_milyon_tl,435,2023,2023-07,metin,
+2023-01,Antidiabetikler,deger_milyon_tl,1153,2024,2024-01,metin,
+2023-02,Antidiabetikler,deger_milyon_tl,809,2024,2024-02,metin,
+2024-01,Antidiabetikler,deger_milyon_tl,1656,2024,2024-01,metin,
+2024-02,Antidiabetikler,deger_milyon_tl,1611,2024,2024-02,metin,
+2022-02,Kanla ilgili ilaçlar,deger_milyon_tl,408,2023,2023-02,metin,
+2022-03,Kanla ilgili ilaçlar,deger_milyon_tl,556,2023,2023-03,metin,
+2022-04,Kanla ilgili ilaçlar,deger_milyon_tl,535,2023,2023-04,metin,
+2022-05,Kanla ilgili ilaçlar,deger_milyon_tl,553,2023,2023-05,goruntu_elle,
+2022-06,Kanla ilgili ilaçlar,deger_milyon_tl,646,2023,2023-06,metin,
+2022-07,Kanla ilgili ilaçlar,deger_milyon_tl,575,2023,2023-07,metin,
+2022-08,Kanla ilgili ilaçlar,deger_milyon_tl,723,2023,2023-08,metin,
+2022-09,Kanla ilgili ilaçlar,deger_milyon_tl,752,2023,2023-09,metin,
+2022-10,Kanla ilgili ilaçlar,deger_milyon_tl,703,2023,2023-10,metin,
+2022-11,Kanla ilgili ilaçlar,deger_milyon_tl,765,2023,2023-11,metin,
+2022-12,Kanla ilgili ilaçlar,deger_milyon_tl,934,2023,2023-12,metin,
+2023-03,Kanla ilgili ilaçlar,deger_milyon_tl,1012,2024,2024-03,metin,
+2023-04,Kanla ilgili ilaçlar,deger_milyon_tl,914,2024,2024-04,metin,
+2023-05,Kanla ilgili ilaçlar,deger_milyon_tl,1031,2024,2024-05,metin,
+2023-06,Kanla ilgili ilaçlar,deger_milyon_tl,1213,2024,2024-06,metin,
+2023-07,Kanla ilgili ilaçlar,deger_milyon_tl,1136,2024,2024-07,metin,
+2023-08,Kanla ilgili ilaçlar,deger_milyon_tl,1216,2024,2024-08,metin,
+2023-09,Kanla ilgili ilaçlar,deger_milyon_tl,1342,2024,2024-09,metin,
+2023-10,Kanla ilgili ilaçlar,deger_milyon_tl,1346,2024,2024-10,metin,
+2023-11,Kanla ilgili ilaçlar,deger_milyon_tl,1456,2024,2024-11,metin,
+2023-12,Kanla ilgili ilaçlar,deger_milyon_tl,1544,2024,2024-12,metin,
+2024-03,Kanla ilgili ilaçlar,deger_milyon_tl,1835,2024,2024-03,metin,
+2024-04,Kanla ilgili ilaçlar,deger_milyon_tl,1446,2024,2024-04,metin,
+2024-05,Kanla ilgili ilaçlar,deger_milyon_tl,1817,2024,2024-05,metin,
+2024-06,Kanla ilgili ilaçlar,deger_milyon_tl,1508,2024,2024-06,metin,
+2024-07,Kanla ilgili ilaçlar,deger_milyon_tl,2094,2024,2024-07,metin,
+2024-08,Kanla ilgili ilaçlar,deger_milyon_tl,1688,2024,2024-08,metin,
+2024-09,Kanla ilgili ilaçlar,deger_milyon_tl,1919,2024,2024-09,metin,
+2024-10,Kanla ilgili ilaçlar,deger_milyon_tl,1791,2024,2024-10,metin,
+2024-11,Kanla ilgili ilaçlar,deger_milyon_tl,2180,2024,2024-11,metin,
+2024-12,Kanla ilgili ilaçlar,deger_milyon_tl,2002,2024,2024-12,metin,
+2022-01,Kardiyovasküler,deger_milyon_tl,442,2023,2023-01,metin,
+2022-02,Kardiyovasküler,deger_milyon_tl,452,2023,2023-02,metin,
+2022-03,Kardiyovasküler,deger_milyon_tl,434,2023,2023-03,metin,
+2022-04,Kardiyovasküler,deger_milyon_tl,488,2023,2023-04,metin,
+2022-05,Kardiyovasküler,deger_milyon_tl,677,2023,2023-05,goruntu_elle,
+2022-06,Kardiyovasküler,deger_milyon_tl,598,2023,2023-06,metin,
+2022-07,Kardiyovasküler,deger_milyon_tl,499,2023,2023-07,metin,
+2022-08,Kardiyovasküler,deger_milyon_tl,725,2023,2023-08,metin,
+2022-09,Kardiyovasküler,deger_milyon_tl,751,2023,2023-09,metin,
+2022-10,Kardiyovasküler,deger_milyon_tl,644,2023,2023-10,metin,
+2022-11,Kardiyovasküler,deger_milyon_tl,698,2023,2023-11,metin,
+2022-12,Kardiyovasküler,deger_milyon_tl,847,2023,2023-12,metin,
+2023-01,Kardiyovasküler,deger_milyon_tl,1232,2024,2024-01,metin,
+2023-02,Kardiyovasküler,deger_milyon_tl,816,2024,2024-02,metin,
+2023-03,Kardiyovasküler,deger_milyon_tl,901,2024,2024-03,metin,
+2023-04,Kardiyovasküler,deger_milyon_tl,879,2024,2024-04,metin,
+2023-05,Kardiyovasküler,deger_milyon_tl,990,2024,2024-05,metin,
+2023-06,Kardiyovasküler,deger_milyon_tl,1072,2024,2024-06,metin,
+2023-07,Kardiyovasküler,deger_milyon_tl,1403,2024,2024-07,metin,
+2023-08,Kardiyovasküler,deger_milyon_tl,1141,2024,2024-08,metin,
+2023-09,Kardiyovasküler,deger_milyon_tl,1121,2024,2024-09,metin,
+2023-10,Kardiyovasküler,deger_milyon_tl,1414,2024,2024-10,metin,
+2023-11,Kardiyovasküler,deger_milyon_tl,1427,2024,2024-11,metin,
+2023-12,Kardiyovasküler,deger_milyon_tl,1275,2024,2024-12,metin,
+2024-01,Kardiyovasküler,deger_milyon_tl,1872,2024,2024-01,metin,
+2024-02,Kardiyovasküler,deger_milyon_tl,1633,2024,2024-02,metin,
+2024-03,Kardiyovasküler,deger_milyon_tl,1447,2024,2024-03,metin,
+2024-04,Kardiyovasküler,deger_milyon_tl,1610,2024,2024-04,metin,
+2024-05,Kardiyovasküler,deger_milyon_tl,1789,2024,2024-05,metin,
+2024-06,Kardiyovasküler,deger_milyon_tl,1414,2024,2024-06,metin,
+2024-07,Kardiyovasküler,deger_milyon_tl,2458,2024,2024-07,metin,
+2024-08,Kardiyovasküler,deger_milyon_tl,1671,2024,2024-08,metin,
+2024-09,Kardiyovasküler,deger_milyon_tl,1660,2024,2024-09,metin,
+2024-10,Kardiyovasküler,deger_milyon_tl,2106,2024,2024-10,metin,
+2024-11,Kardiyovasküler,deger_milyon_tl,2096,2024,2024-11,metin,
+2024-12,Kardiyovasküler,deger_milyon_tl,2037,2024,2024-12,metin,
+2022-01,Onkoloji,deger_milyon_tl,954,2023,2023-01,metin,kucuk revizyon (en fazla ~%4)
+2022-02,Onkoloji,deger_milyon_tl,808,2023,2023-02,metin,kucuk revizyon (en fazla ~%4)
+2022-03,Onkoloji,deger_milyon_tl,1103,2023,2023-03,metin,kucuk revizyon (en fazla ~%4)
+2022-04,Onkoloji,deger_milyon_tl,1040,2023,2023-04,metin,kucuk revizyon (en fazla ~%4)
+2022-05,Onkoloji,deger_milyon_tl,968,2023,2023-05,goruntu_elle,kucuk revizyon (en fazla ~%4)
+2022-06,Onkoloji,deger_milyon_tl,1807,2023,2023-06,metin,kucuk revizyon (en fazla ~%4)
+2022-07,Onkoloji,deger_milyon_tl,1141,2023,2023-07,metin,kucuk revizyon (en fazla ~%4)
+2022-08,Onkoloji,deger_milyon_tl,1750,2023,2023-08,metin,kucuk revizyon (en fazla ~%4)
+2022-09,Onkoloji,deger_milyon_tl,1540,2023,2023-09,metin,kucuk revizyon (en fazla ~%4)
+2022-10,Onkoloji,deger_milyon_tl,1635,2023,2023-10,metin,kucuk revizyon (en fazla ~%4)
+2022-11,Onkoloji,deger_milyon_tl,2000,2023,2023-11,metin,kucuk revizyon (en fazla ~%4)
+2022-12,Onkoloji,deger_milyon_tl,1941,2023,2023-12,metin,kucuk revizyon (en fazla ~%4)
+2023-01,Onkoloji,deger_milyon_tl,2420,2024,2024-01,metin,kucuk revizyon (en fazla ~%4)
+2023-02,Onkoloji,deger_milyon_tl,1682,2024,2024-02,metin,kucuk revizyon (en fazla ~%4)
+2023-03,Onkoloji,deger_milyon_tl,2290,2024,2024-03,metin,kucuk revizyon (en fazla ~%4)
+2023-04,Onkoloji,deger_milyon_tl,2314,2024,2024-04,metin,kucuk revizyon (en fazla ~%4)
+2023-05,Onkoloji,deger_milyon_tl,2695,2024,2024-05,metin,kucuk revizyon (en fazla ~%4)
+2023-06,Onkoloji,deger_milyon_tl,2345,2024,2024-06,metin,kucuk revizyon (en fazla ~%4)
+2023-07,Onkoloji,deger_milyon_tl,2430,2024,2024-07,metin,kucuk revizyon (en fazla ~%4)
+2023-08,Onkoloji,deger_milyon_tl,3085,2024,2024-08,metin,kucuk revizyon (en fazla ~%4)
+2023-09,Onkoloji,deger_milyon_tl,3342,2024,2024-09,metin,kucuk revizyon (en fazla ~%4)
+2023-10,Onkoloji,deger_milyon_tl,2686,2024,2024-10,metin,kucuk revizyon (en fazla ~%4)
+2023-11,Onkoloji,deger_milyon_tl,3756,2024,2024-11,metin,kucuk revizyon (en fazla ~%4)
+2023-12,Onkoloji,deger_milyon_tl,3000,2024,2024-12,metin,kucuk revizyon (en fazla ~%4)
+2024-01,Onkoloji,deger_milyon_tl,4374,2024,2024-01,metin,kucuk revizyon (en fazla ~%4)
+2024-02,Onkoloji,deger_milyon_tl,3495,2024,2024-02,metin,kucuk revizyon (en fazla ~%4)
+2024-03,Onkoloji,deger_milyon_tl,3918,2024,2024-03,metin,kucuk revizyon (en fazla ~%4)
+2024-04,Onkoloji,deger_milyon_tl,4349,2024,2024-04,metin,kucuk revizyon (en fazla ~%4)
+2024-05,Onkoloji,deger_milyon_tl,5194,2024,2024-05,metin,kucuk revizyon (en fazla ~%4)
+2024-06,Onkoloji,deger_milyon_tl,3142,2024,2024-06,metin,kucuk revizyon (en fazla ~%4)
+2024-07,Onkoloji,deger_milyon_tl,6107,2024,2024-07,metin,kucuk revizyon (en fazla ~%4)
+2024-08,Onkoloji,deger_milyon_tl,3725,2024,2024-08,metin,kucuk revizyon (en fazla ~%4)
+2024-09,Onkoloji,deger_milyon_tl,5275,2024,2024-09,metin,kucuk revizyon (en fazla ~%4)
+2024-10,Onkoloji,deger_milyon_tl,4264,2024,2024-10,metin,kucuk revizyon (en fazla ~%4)
+2024-11,Onkoloji,deger_milyon_tl,6702,2024,2024-11,metin,kucuk revizyon (en fazla ~%4)
+2024-12,Onkoloji,deger_milyon_tl,5334,2024,2024-12,metin,kucuk revizyon (en fazla ~%4)
+2022-05,Serumlar/Aşılar,deger_milyon_tl,427,2023,2023-05,goruntu_elle,
+2022-08,Serumlar/Aşılar,deger_milyon_tl,738,2023,2023-08,metin,
+2022-09,Serumlar/Aşılar,deger_milyon_tl,745,2023,2023-09,metin,
+2022-10,Serumlar/Aşılar,deger_milyon_tl,891,2023,2023-10,metin,
+2022-11,Serumlar/Aşılar,deger_milyon_tl,835,2023,2023-11,metin,
+2022-12,Serumlar/Aşılar,deger_milyon_tl,847,2023,2023-12,metin,
+2023-01,Serumlar/Aşılar,deger_milyon_tl,887,2024,2024-01,metin,
+2023-02,Serumlar/Aşılar,deger_milyon_tl,714,2024,2024-02,metin,
+2023-03,Serumlar/Aşılar,deger_milyon_tl,1042,2024,2024-03,metin,
+2023-04,Serumlar/Aşılar,deger_milyon_tl,804,2024,2024-04,metin,
+2023-05,Serumlar/Aşılar,deger_milyon_tl,1098,2024,2024-05,metin,
+2023-06,Serumlar/Aşılar,deger_milyon_tl,927,2024,2024-06,metin,
+2023-07,Serumlar/Aşılar,deger_milyon_tl,1053,2024,2024-07,metin,
+2023-08,Serumlar/Aşılar,deger_milyon_tl,1465,2024,2024-08,metin,
+2023-09,Serumlar/Aşılar,deger_milyon_tl,1376,2024,2024-09,metin,
+2023-10,Serumlar/Aşılar,deger_milyon_tl,1384,2024,2024-10,metin,
+2023-11,Serumlar/Aşılar,deger_milyon_tl,1424,2024,2024-11,metin,
+2023-12,Serumlar/Aşılar,deger_milyon_tl,1354,2024,2024-12,metin,
+2024-01,Serumlar/Aşılar,deger_milyon_tl,1660,2024,2024-01,metin,
+2024-02,Serumlar/Aşılar,deger_milyon_tl,1552,2024,2024-02,metin,
+2024-03,Serumlar/Aşılar,deger_milyon_tl,1849,2024,2024-03,metin,
+2024-04,Serumlar/Aşılar,deger_milyon_tl,1641,2024,2024-04,metin,
+2024-05,Serumlar/Aşılar,deger_milyon_tl,1919,2024,2024-05,metin,
+2024-06,Serumlar/Aşılar,deger_milyon_tl,1152,2024,2024-06,metin,
+2024-07,Serumlar/Aşılar,deger_milyon_tl,1867,2024,2024-07,metin,
+2024-08,Serumlar/Aşılar,deger_milyon_tl,1784,2024,2024-08,metin,
+2024-09,Serumlar/Aşılar,deger_milyon_tl,1668,2024,2024-09,metin,
+2024-10,Serumlar/Aşılar,deger_milyon_tl,1966,2024,2024-10,metin,
+2024-11,Serumlar/Aşılar,deger_milyon_tl,2129,2024,2024-11,metin,
+2024-12,Serumlar/Aşılar,deger_milyon_tl,1776,2024,2024-12,metin,
+2022-01,Soğuk algınlığı/öksürük,deger_milyon_tl,294,2023,2023-01,metin,
+2022-01,Analjezik,hacim_milyon_kutu,27,2023,2023-01,metin,
+2022-02,Analjezik,hacim_milyon_kutu,14,2023,2023-02,metin,
+2022-03,Analjezik,hacim_milyon_kutu,11,2023,2023-03,metin,
+2022-04,Analjezik,hacim_milyon_kutu,17,2023,2023-04,metin,
+2022-05,Analjezik,hacim_milyon_kutu,20,2023,2023-05,goruntu_elle,
+2022-06,Analjezik,hacim_milyon_kutu,14,2023,2023-06,metin,
+2022-07,Analjezik,hacim_milyon_kutu,9,2023,2023-07,metin,
+2022-08,Analjezik,hacim_milyon_kutu,16,2023,2023-08,metin,
+2022-09,Analjezik,hacim_milyon_kutu,25,2023,2023-09,metin,
+2022-10,Analjezik,hacim_milyon_kutu,26,2023,2023-10,metin,
+2022-11,Analjezik,hacim_milyon_kutu,16,2023,2023-11,metin,
+2022-12,Analjezik,hacim_milyon_kutu,16,2023,2023-12,metin,
+2022-01,Antibiyotikler,hacim_milyon_kutu,21,2023,2023-01,metin,
+2022-02,Antibiyotikler,hacim_milyon_kutu,17,2023,2023-02,metin,
+2022-03,Antibiyotikler,hacim_milyon_kutu,20,2023,2023-03,metin,
+2022-04,Antibiyotikler,hacim_milyon_kutu,16,2023,2023-04,metin,
+2022-05,Antibiyotikler,hacim_milyon_kutu,18,2023,2023-05,goruntu_elle,
+2022-06,Antibiyotikler,hacim_milyon_kutu,20,2023,2023-06,metin,
+2022-07,Antibiyotikler,hacim_milyon_kutu,14,2023,2023-07,metin,
+2022-08,Antibiyotikler,hacim_milyon_kutu,18,2023,2023-08,metin,
+2022-09,Antibiyotikler,hacim_milyon_kutu,22,2023,2023-09,metin,
+2022-10,Antibiyotikler,hacim_milyon_kutu,19,2023,2023-10,metin,
+2022-11,Antibiyotikler,hacim_milyon_kutu,25,2023,2023-11,metin,
+2022-12,Antibiyotikler,hacim_milyon_kutu,26,2023,2023-12,metin,
+2023-01,Antibiyotikler,hacim_milyon_kutu,29,2024,2024-01,metin,
+2023-02,Antibiyotikler,hacim_milyon_kutu,22,2024,2024-02,metin,
+2023-03,Antibiyotikler,hacim_milyon_kutu,24,2024,2024-03,metin,
+2023-04,Antibiyotikler,hacim_milyon_kutu,20,2024,2024-04,metin,
+2023-05,Antibiyotikler,hacim_milyon_kutu,22,2024,2024-05,metin,
+2023-06,Antibiyotikler,hacim_milyon_kutu,20,2024,2024-06,metin,
+2023-07,Antibiyotikler,hacim_milyon_kutu,16,2024,2024-07,metin,
+2023-08,Antibiyotikler,hacim_milyon_kutu,17,2024,2024-08,metin,
+2023-09,Antibiyotikler,hacim_milyon_kutu,23,2024,2024-09,metin,
+2023-10,Antibiyotikler,hacim_milyon_kutu,20,2024,2024-10,metin,
+2023-11,Antibiyotikler,hacim_milyon_kutu,24,2024,2024-11,metin,
+2023-12,Antibiyotikler,hacim_milyon_kutu,24,2024,2024-12,metin,
+2024-01,Antibiyotikler,hacim_milyon_kutu,30,2024,2024-01,metin,
+2024-02,Antibiyotikler,hacim_milyon_kutu,23,2024,2024-02,metin,
+2024-03,Antibiyotikler,hacim_milyon_kutu,25,2024,2024-03,metin,
+2024-04,Antibiyotikler,hacim_milyon_kutu,19,2024,2024-04,metin,
+2024-05,Antibiyotikler,hacim_milyon_kutu,24,2024,2024-05,metin,
+2024-06,Antibiyotikler,hacim_milyon_kutu,14,2024,2024-06,metin,
+2024-07,Antibiyotikler,hacim_milyon_kutu,19,2024,2024-07,metin,
+2024-08,Antibiyotikler,hacim_milyon_kutu,20,2024,2024-08,metin,
+2024-09,Antibiyotikler,hacim_milyon_kutu,23,2024,2024-09,metin,
+2024-10,Antibiyotikler,hacim_milyon_kutu,20,2024,2024-10,metin,
+2024-11,Antibiyotikler,hacim_milyon_kutu,20,2024,2024-11,metin,
+2024-12,Antibiyotikler,hacim_milyon_kutu,17,2024,2024-12,metin,
+2022-01,Antiromatizmal,hacim_milyon_kutu,21,2023,2023-01,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2022-02,Antiromatizmal,hacim_milyon_kutu,15,2023,2023-02,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2022-03,Antiromatizmal,hacim_milyon_kutu,21,2023,2023-03,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2022-04,Antiromatizmal,hacim_milyon_kutu,16,2023,2023-04,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2022-05,Antiromatizmal,hacim_milyon_kutu,16,2023,2023-05,goruntu_elle,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2022-06,Antiromatizmal,hacim_milyon_kutu,29,2023,2023-06,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2022-07,Antiromatizmal,hacim_milyon_kutu,14,2023,2023-07,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2022-08,Antiromatizmal,hacim_milyon_kutu,18,2023,2023-08,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2022-09,Antiromatizmal,hacim_milyon_kutu,31,2023,2023-09,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2022-10,Antiromatizmal,hacim_milyon_kutu,21,2023,2023-10,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2022-11,Antiromatizmal,hacim_milyon_kutu,23,2023,2023-11,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2022-12,Antiromatizmal,hacim_milyon_kutu,21,2023,2023-12,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2023-01,Antiromatizmal,hacim_milyon_kutu,36,2024,2024-01,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2023-02,Antiromatizmal,hacim_milyon_kutu,19,2024,2024-02,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2023-03,Antiromatizmal,hacim_milyon_kutu,30,2024,2024-03,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2023-04,Antiromatizmal,hacim_milyon_kutu,18,2024,2024-04,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2023-05,Antiromatizmal,hacim_milyon_kutu,33,2024,2024-05,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2023-06,Antiromatizmal,hacim_milyon_kutu,32,2024,2024-06,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2023-07,Antiromatizmal,hacim_milyon_kutu,23,2024,2024-07,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2023-08,Antiromatizmal,hacim_milyon_kutu,19,2024,2024-08,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2023-09,Antiromatizmal,hacim_milyon_kutu,29,2024,2024-09,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2023-10,Antiromatizmal,hacim_milyon_kutu,40,2024,2024-10,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2023-11,Antiromatizmal,hacim_milyon_kutu,25,2024,2024-11,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2023-12,Antiromatizmal,hacim_milyon_kutu,30,2024,2024-12,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2024-01,Antiromatizmal,hacim_milyon_kutu,20,2024,2024-01,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2024-02,Antiromatizmal,hacim_milyon_kutu,30,2024,2024-02,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2024-03,Antiromatizmal,hacim_milyon_kutu,25,2024,2024-03,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2024-04,Antiromatizmal,hacim_milyon_kutu,21,2024,2024-04,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2024-05,Antiromatizmal,hacim_milyon_kutu,25,2024,2024-05,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2024-06,Antiromatizmal,hacim_milyon_kutu,31,2024,2024-06,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2024-07,Antiromatizmal,hacim_milyon_kutu,23,2024,2024-07,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2024-08,Antiromatizmal,hacim_milyon_kutu,21,2024,2024-08,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2024-09,Antiromatizmal,hacim_milyon_kutu,43,2024,2024-09,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2024-10,Antiromatizmal,hacim_milyon_kutu,25,2024,2024-10,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2024-11,Antiromatizmal,hacim_milyon_kutu,18,2024,2024-11,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2024-12,Antiromatizmal,hacim_milyon_kutu,21,2024,2024-12,metin,vintage_kirilimi: 2023 raporlari ile 2024 raporlari arasinda ~%20 seviye farki
+2023-06,Dermatolojik,hacim_milyon_kutu,16,2024,2024-06,metin,
+2023-07,Dermatolojik,hacim_milyon_kutu,13,2024,2024-07,metin,
+2023-08,Dermatolojik,hacim_milyon_kutu,15,2024,2024-08,metin,
+2023-09,Dermatolojik,hacim_milyon_kutu,13,2024,2024-09,metin,
+2023-10,Dermatolojik,hacim_milyon_kutu,15,2024,2024-10,metin,
+2023-11,Dermatolojik,hacim_milyon_kutu,14,2024,2024-11,metin,
+2023-12,Dermatolojik,hacim_milyon_kutu,13,2024,2024-12,metin,
+2024-06,Dermatolojik,hacim_milyon_kutu,14,2024,2024-06,metin,
+2024-07,Dermatolojik,hacim_milyon_kutu,15,2024,2024-07,metin,
+2024-08,Dermatolojik,hacim_milyon_kutu,14,2024,2024-08,metin,
+2024-09,Dermatolojik,hacim_milyon_kutu,15,2024,2024-09,metin,
+2024-10,Dermatolojik,hacim_milyon_kutu,13,2024,2024-10,metin,
+2024-11,Dermatolojik,hacim_milyon_kutu,12,2024,2024-11,metin,
+2024-12,Dermatolojik,hacim_milyon_kutu,12,2024,2024-12,metin,
+2022-01,Kardiyovasküler,hacim_milyon_kutu,22,2023,2023-01,metin,
+2022-02,Kardiyovasküler,hacim_milyon_kutu,22,2023,2023-02,metin,
+2022-03,Kardiyovasküler,hacim_milyon_kutu,16,2023,2023-03,metin,
+2022-04,Kardiyovasküler,hacim_milyon_kutu,18,2023,2023-04,metin,
+2022-05,Kardiyovasküler,hacim_milyon_kutu,26,2023,2023-05,goruntu_elle,
+2022-06,Kardiyovasküler,hacim_milyon_kutu,22,2023,2023-06,metin,
+2022-07,Kardiyovasküler,hacim_milyon_kutu,14,2023,2023-07,metin,
+2022-08,Kardiyovasküler,hacim_milyon_kutu,22,2023,2023-08,metin,
+2022-09,Kardiyovasküler,hacim_milyon_kutu,22,2023,2023-09,metin,
+2022-10,Kardiyovasküler,hacim_milyon_kutu,19,2023,2023-10,metin,
+2022-11,Kardiyovasküler,hacim_milyon_kutu,20,2023,2023-11,metin,
+2022-12,Kardiyovasküler,hacim_milyon_kutu,21,2023,2023-12,metin,
+2023-01,Kardiyovasküler,hacim_milyon_kutu,27,2024,2024-01,metin,
+2023-02,Kardiyovasküler,hacim_milyon_kutu,17,2024,2024-02,metin,
+2023-03,Kardiyovasküler,hacim_milyon_kutu,18,2024,2024-03,metin,
+2023-04,Kardiyovasküler,hacim_milyon_kutu,18,2024,2024-04,metin,
+2023-05,Kardiyovasküler,hacim_milyon_kutu,20,2024,2024-05,metin,
+2023-06,Kardiyovasküler,hacim_milyon_kutu,22,2024,2024-06,metin,
+2023-07,Kardiyovasküler,hacim_milyon_kutu,28,2024,2024-07,metin,
+2023-08,Kardiyovasküler,hacim_milyon_kutu,17,2024,2024-08,metin,
+2023-09,Kardiyovasküler,hacim_milyon_kutu,17,2024,2024-09,metin,
+2023-10,Kardiyovasküler,hacim_milyon_kutu,23,2024,2024-10,metin,
+2023-11,Kardiyovasküler,hacim_milyon_kutu,22,2024,2024-11,metin,
+2023-12,Kardiyovasküler,hacim_milyon_kutu,19,2024,2024-12,metin,
+2024-01,Kardiyovasküler,hacim_milyon_kutu,23,2024,2024-01,metin,
+2024-02,Kardiyovasküler,hacim_milyon_kutu,20,2024,2024-02,metin,
+2024-03,Kardiyovasküler,hacim_milyon_kutu,17,2024,2024-03,metin,
+2024-04,Kardiyovasküler,hacim_milyon_kutu,19,2024,2024-04,metin,
+2024-05,Kardiyovasküler,hacim_milyon_kutu,21,2024,2024-05,metin,
+2024-06,Kardiyovasküler,hacim_milyon_kutu,17,2024,2024-06,metin,
+2024-07,Kardiyovasküler,hacim_milyon_kutu,30,2024,2024-07,metin,
+2024-08,Kardiyovasküler,hacim_milyon_kutu,19,2024,2024-08,metin,
+2024-09,Kardiyovasküler,hacim_milyon_kutu,19,2024,2024-09,metin,
+2024-10,Kardiyovasküler,hacim_milyon_kutu,26,2024,2024-10,metin,
+2024-11,Kardiyovasküler,hacim_milyon_kutu,20,2024,2024-11,metin,
+2024-12,Kardiyovasküler,hacim_milyon_kutu,19,2024,2024-12,metin,
+2023-01,Sindirim Sistemi İlaçları,hacim_milyon_kutu,15,2024,2024-01,metin,
+2023-02,Sindirim Sistemi İlaçları,hacim_milyon_kutu,11,2024,2024-02,metin,
+2023-03,Sindirim Sistemi İlaçları,hacim_milyon_kutu,14,2024,2024-03,metin,
+2023-04,Sindirim Sistemi İlaçları,hacim_milyon_kutu,13,2024,2024-04,metin,
+2023-05,Sindirim Sistemi İlaçları,hacim_milyon_kutu,18,2024,2024-05,metin,
+2024-01,Sindirim Sistemi İlaçları,hacim_milyon_kutu,13,2024,2024-01,metin,
+2024-02,Sindirim Sistemi İlaçları,hacim_milyon_kutu,12,2024,2024-02,metin,
+2024-03,Sindirim Sistemi İlaçları,hacim_milyon_kutu,14,2024,2024-03,metin,
+2024-04,Sindirim Sistemi İlaçları,hacim_milyon_kutu,12,2024,2024-04,metin,
+2024-05,Sindirim Sistemi İlaçları,hacim_milyon_kutu,12,2024,2024-05,metin,
+2022-01,Soğuk algınlığı/öksürük,hacim_milyon_kutu,21,2023,2023-01,metin,
+2022-02,Soğuk algınlığı/öksürük,hacim_milyon_kutu,17,2023,2023-02,metin,
+2022-03,Soğuk algınlığı/öksürük,hacim_milyon_kutu,17,2023,2023-03,metin,
+2022-04,Soğuk algınlığı/öksürük,hacim_milyon_kutu,12,2023,2023-04,metin,
+2022-05,Soğuk algınlığı/öksürük,hacim_milyon_kutu,13,2023,2023-05,goruntu_elle,
+2022-06,Soğuk algınlığı/öksürük,hacim_milyon_kutu,11,2023,2023-06,metin,
+2022-07,Soğuk algınlığı/öksürük,hacim_milyon_kutu,10,2023,2023-07,metin,
+2022-08,Soğuk algınlığı/öksürük,hacim_milyon_kutu,15,2023,2023-08,metin,
+2022-09,Soğuk algınlığı/öksürük,hacim_milyon_kutu,19,2023,2023-09,metin,
+2022-10,Soğuk algınlığı/öksürük,hacim_milyon_kutu,22,2023,2023-10,metin,
+2022-11,Soğuk algınlığı/öksürük,hacim_milyon_kutu,26,2023,2023-11,metin,
+2022-12,Soğuk algınlığı/öksürük,hacim_milyon_kutu,25,2023,2023-12,metin,
+2023-01,Soğuk algınlığı/öksürük,hacim_milyon_kutu,31,2024,2024-01,metin,
+2023-02,Soğuk algınlığı/öksürük,hacim_milyon_kutu,16,2024,2024-02,metin,
+2023-03,Soğuk algınlığı/öksürük,hacim_milyon_kutu,18,2024,2024-03,metin,
+2023-04,Soğuk algınlığı/öksürük,hacim_milyon_kutu,15,2024,2024-04,metin,
+2023-05,Soğuk algınlığı/öksürük,hacim_milyon_kutu,15,2024,2024-05,metin,
+2023-06,Soğuk algınlığı/öksürük,hacim_milyon_kutu,16,2024,2024-06,metin,
+2023-07,Soğuk algınlığı/öksürük,hacim_milyon_kutu,10,2024,2024-07,metin,
+2023-08,Soğuk algınlığı/öksürük,hacim_milyon_kutu,11,2024,2024-08,metin,
+2023-09,Soğuk algınlığı/öksürük,hacim_milyon_kutu,23,2024,2024-09,metin,
+2023-10,Soğuk algınlığı/öksürük,hacim_milyon_kutu,20,2024,2024-10,metin,
+2023-11,Soğuk algınlığı/öksürük,hacim_milyon_kutu,23,2024,2024-11,metin,
+2023-12,Soğuk algınlığı/öksürük,hacim_milyon_kutu,21,2024,2024-12,metin,
+2024-01,Soğuk algınlığı/öksürük,hacim_milyon_kutu,26,2024,2024-01,metin,
+2024-02,Soğuk algınlığı/öksürük,hacim_milyon_kutu,19,2024,2024-02,metin,
+2024-03,Soğuk algınlığı/öksürük,hacim_milyon_kutu,17,2024,2024-03,metin,
+2024-04,Soğuk algınlığı/öksürük,hacim_milyon_kutu,13,2024,2024-04,metin,
+2024-05,Soğuk algınlığı/öksürük,hacim_milyon_kutu,13,2024,2024-05,metin,
+2024-06,Soğuk algınlığı/öksürük,hacim_milyon_kutu,9,2024,2024-06,metin,
+2024-07,Soğuk algınlığı/öksürük,hacim_milyon_kutu,7,2024,2024-07,metin,
+2024-08,Soğuk algınlığı/öksürük,hacim_milyon_kutu,11,2024,2024-08,metin,
+2024-09,Soğuk algınlığı/öksürük,hacim_milyon_kutu,23,2024,2024-09,metin,
+2024-10,Soğuk algınlığı/öksürük,hacim_milyon_kutu,20,2024,2024-10,metin,
+2024-11,Soğuk algınlığı/öksürük,hacim_milyon_kutu,18,2024,2024-11,metin,
+2024-12,Soğuk algınlığı/öksürük,hacim_milyon_kutu,15,2024,2024-12,metin,

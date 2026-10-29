@@ -1,0 +1,9 @@
+pandas
+numpy
+statsmodels
+scikit-learn
+lightgbm
+shap
+matplotlib
+holidays
+borsapy

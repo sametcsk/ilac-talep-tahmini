@@ -1,0 +1,7 @@
+model,rmse_milyon_kutu,mape_pct
+SARIMAX (AR1 + takvim),16.8,5.7
+OLS (takvim),17.0,5.9
+Ridge (takvim + lag1),17.3,5.6
+LightGBM (takvim + lag1 + ay),22.0,8.6
+Naif (gecen ay),28.3,11.0
+Mevsimsel naif (gecen yil ayni ay),30.2,11.8
